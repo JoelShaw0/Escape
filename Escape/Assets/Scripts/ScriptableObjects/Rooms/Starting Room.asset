@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5227b82f08b8b408a089f5c762f714, type: 3}
+  m_Name: Starting Room
+  m_EditorClassIdentifier: 
+  description: This is the Starting Room of the Dungeon
+  roomName: starting room
+  exits:
+  - keyString: north
+    exitDescription: You see a dark doorway to the north.
+    valueRoom: {fileID: 11400000, guid: f3a85f78a3295f64987e5c32ca612217, type: 2}
